@@ -1,0 +1,5 @@
+The algorithm that I used is a modified version of count sort. In this version of count sort,
+numbers are split into different 'buckets' based on the ones value of each number. The numbers
+are then placed back into the original array starting from the 0 bucket until the final element
+in bucket 9. This process is repeated for the tens value, hundreds value, and the thousands value.
+When the thousands value finishes sorting, the array should be fully sorted.
